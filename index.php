@@ -17,8 +17,8 @@
 
 <style>
    #horizontal {
-width:100px;
-height:100px;
+width:1200px;
+height:1200px;
 background: url('http://static1.360vrs.com/pano-content/judith-stone-at-sunset-east-farndon/640px-360-panorama.jpg');
 -webkit-animation: backgroundScroll 20s linear infinite;
   background-repeat: no-repeat;
@@ -27,12 +27,12 @@ animation: backgroundScroll 20s linear infinite;
 
 @-webkit-keyframes backgroundScroll {
 from {background-position: 0 0;}
-to {background-position: 40px 0;}
+to {background-position: 400px 0;}
 }
         
 @keyframes backgroundScroll {
 from {background-position: 0 0;}
-to {background-position: 40px 0;}
+to {background-position: 400px 0;}
 }
   </style>
 
