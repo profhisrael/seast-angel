@@ -1,4 +1,4 @@
-
+﻿
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -14,52 +14,29 @@
 
   
 
-  <!-- /snippets/social-meta-tags.liquid -->
-
-
-
-
-<meta property="og:site_name" content="East Angel ´$ociety">
-<meta property="og:url" content="https://eastangelsociety.com">
-<meta property="og:title" content="East Angel ´$ociety">
-<meta property="og:type" content="website">
-<meta property="og:description" content="East Angel ´$ociety">
-
-
-
-
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="East Angel ´$ociety">
-<meta name="twitter:description" content="East Angel ´$ociety">
 
 <style>
-    body {
-      background-color: #000;
-    }
-    .password-page__image {
-      background-image: url("localhost/shopify/images/bg.png");
-    }
-    .password-page__wrapper {
-      color: #fff;
-    }
-    .password-page__wrapper hr {
-      border-color: inherit;
-    }
+   #horizontal {
+width: 200px;
+height: 200px;
+background: url('http://static1.360vrs.com/pano-content/judith-stone-at-sunset-east-farndon/640px-360-panorama.jpg');
+-webkit-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 20s linear infinite;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+        
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
   </style>
 
 </head>
 <body>
   
 
-  <body class="template-password">
-    
-
-    <div class="password-page__image">f</div>
-    
-
-    <div class="password-page__wrapper">
-      
-<div id="shopify-section-password-header" class="shopify-section password-header-section"><header class="password-page__header" role="banner"  data-section-id="password-header" data-section-type="password-header">
-   <div class="password-page__header__inner">
-</body>
+  <div id="horizontal"></div>
